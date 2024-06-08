@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #252A34;
+  }
+  
+  header {
+    background-color: #1D2B3B;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: #F1F7F7;
+  }
+  
+  nav {
+    background-color: #1D2B3B;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FFDF7A;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom:auto;
+  }
+  
+  h1 {
+    color: #F1F7F7;
+  }
+  
+  h2 {
+    color: #F1F7F7;
+    text-align:center
+  }
+  
+  p {
+    color: #F1F7F7;
+  }
+  
+  h3 {
+    color: #F1F7F7;
+  }
+  
+  li {
+    color: #F1F7F7;
+  }
+  
+  h4 {
+    color: #F1F7F7;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
+
+  /* Set a specific height */
+  height: 80%;
+  /*width:50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:90% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+  .card-a{
+     width: 400px; /* Adjust width as needed */
+    margin: 5px;
+    background-color:#594545 ;
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 20 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
+    .card-f{
+     width: 400px; /* Adjust width as needed */
+    margin: 5px;
+    background-color:#3E503C;
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 20 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
+    .card-cd{
+     width: 200px; /* Adjust width as needed */
+    margin: 5px;
+    background-color:#17224D ;
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 20 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
+    .card-d{
+     width: 400px; /* Adjust width as needed */
+    margin: 5px;
+    background-color:#3B3B3B ;
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 20 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
+  .card-container{
+    display:flex; /* Arrange cards horizontally */
+    flex-wrap: wrap; /* Allow cards to wrap to next line */
+    margin: 20px;
+    
+  }
+  .card-e{
+    background-color:#C67D00;
+     width: 200px; /* Adjust width as needed */
+    margin: 10px;
+      border-radius: 5px;  /* Rounded corners */
+    box-shadow: 20 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
+  .card-s{
+     background-color:#9D513D;
+     width: 200px; /* Adjust width as needed */
+    margin: 10px;
+      border-radius: 5px;  /* Rounded corners */
+    box-shadow: 20 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
+   .card-ar{
+     background-color:#146C94;
+     width: 400px; /* Adjust width as needed */
+    margin: 10px;
+      border-radius: 5px;  /* Rounded corners */
+    box-shadow: 20 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
